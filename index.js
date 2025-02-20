@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 const app = express();
 const port = 3000;
 
-const API_KEY = "5b999f9257f57b49747bd78119475543";
+const API_KEY = process.env.API_KEY;
 app.use(express.static("public"));
 
 app.use(express.urlencoded({ extended: true })); // Middleware to parse form data
