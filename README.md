@@ -8,6 +8,6 @@ A website built using the Express/Node.js platform, with the Axios HTTP client, 
 To start the server run:
 ```
 npm i
-nodemon index.js
+node --env-file=.env index.js
 ```
-The node modules are included in the gitignore file.
+The node modules and env are included in the gitignore file.
